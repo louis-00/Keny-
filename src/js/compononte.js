@@ -9,6 +9,7 @@ const txtInput = document.querySelector('.new-todo');
 const btnCompsHtml = document.querySelector('.clear-completed');
 const ulFiltros = document.querySelector('.filters');
 const filtros = document.querySelectorAll('filtro')
+const numTask = 0;
 
 export const crearTareaHtml = (tarea) => {
 
@@ -25,9 +26,12 @@ export const crearTareaHtml = (tarea) => {
     const div = document.createElement('div');
     div.innerHTML = htmlTarea;
 
+    numTask = numTask + 1;
+
     divTodoList.append(div.firstElementChild);
 
     return div.firstElementChild;
+
 
 }
 

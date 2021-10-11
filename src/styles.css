@@ -23,14 +23,19 @@ button {
 body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
-	background: #f5f5f5;
-	color: #111111;
+    background: rgb(36,81,166);
+    background: linear-gradient(90deg, rgba(36,81,166,1) 11%, rgba(68,129,210,1) 100%);
+    padding: 5px 30px;	color: #111111;
 	min-width: 230px;
 	max-width: 550px;
 	margin: 0 auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: 300;
+}
+
+p {
+	color: #fff;
 }
 
 :focus {
@@ -74,7 +79,7 @@ body {
 	font-size: 80px;
 	font-weight: 200;
 	text-align: center;
-	color: #0d46a0;
+	color: #fff;
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
